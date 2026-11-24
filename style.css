@@ -14,3 +14,25 @@ p { margin: 6px 0; } ul { padding-left: 22px; margin: 8px 0; } li + li { margin-
 footer { font-size: 13px; color: #666; padding-top: 24px; }
 @media (max-width: 480px) { body { padding-top: 32px; } h1 { font-size: 30px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+/* Professional Profile Links */
+
+.professional-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.professional-links a {
+    color: #2458a5;
+    text-decoration: none;
+}
+
+.professional-links a:hover {
+    text-decoration: underline;
+}
+
+.professional-links span {
+    color: #999999;
+}
